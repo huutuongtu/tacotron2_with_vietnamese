@@ -1,3 +1,10 @@
+# How to save mel-spectrogram
+Change checkpoint_path if you use other checkpoint https://github.com/huutuongtu/tacotron2_with_vietnamese/blob/332baad9445580c583e243ec022df5ec51d6ed8b/test.py#L30
+Change text https://github.com/huutuongtu/tacotron2_with_vietnamese/blob/332baad9445580c583e243ec022df5ec51d6ed8b/test.py#L35
+Change path save mel-spectrogram https://github.com/huutuongtu/tacotron2_with_vietnamese/blob/332baad9445580c583e243ec022df5ec51d6ed8b/test.py#L44
+Then use by python3 test.py
+
+
 # Tacotron 2 (without wavenet)
 
 PyTorch implementation of [Natural TTS Synthesis By Conditioning
